@@ -18,8 +18,10 @@ imbalanced-learn==0.13.0
 umap-learn==0.5.7
 torch-geometric==2.6.1
 torchinfo==1.8.0
+# You need to install the build-essential package on your Ubuntu system to obtain the necessary compilation tools for fastText
 fasttext==0.9.3
 beautifulsoup4==4.13.3
+kaleido==1.0.0
 
 # If you need to generate the visualization, please uncomment this module
 # In windows environment, you could use conda to install this module, that will be much easier
